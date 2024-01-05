@@ -1,13 +1,8 @@
-var mobileBtn = document.querySelector("#navLinks");
-var nav = document.getElementById("nav");
-var mobileBtnExit = document.querySelector("#mobile-exit");
-
-mobileBtn.addEventListener("click", function () {
-    nav.classList.add("menu-btn");
-})
-
-mobileBtnExit.addEventListener("click", function () {
-    nav.classList.remove("menu-btn");
-})
-
+var navLinks = document.getElementById("navLinks");
+function showMenu() {
+    navLinks.style.right = "0";
+    }
+function hideMenu() {
+    navLinks.style.right ="-300px";
+    }
 
