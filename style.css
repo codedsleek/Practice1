@@ -139,7 +139,7 @@ nav .fa-solid {
         display: block;
     }
     .nav-links {
-        position: fixed;
+        position: absolute;
         background: #f44336;
         top: 0;
         right: -200px;
